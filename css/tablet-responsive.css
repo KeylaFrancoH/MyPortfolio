@@ -1,0 +1,130 @@
+@media screen and (max-width: 755px) {
+  .check_b {
+    display: inline-flex;
+  }
+
+  .nav-bar .l-menu {
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    gap: 2vw;
+    width: 100%;
+    height: auto;
+    background-color: var(--color-1);
+    top: 4rem;
+    left: 100%;
+    text-align: center;
+    padding: 2em;
+  }
+
+  .nav-bar .l-menu li {
+    display: block;
+    justify-content: center;
+    line-height: 2rem;
+    padding: 2vw 3vw 2vw 3vw;
+  }
+
+  .nav-bar .l-menu li a {
+    font-size: 2vw;
+    font-weight: bold;
+    padding: 2vw 3vw 2vw 3vw;
+  }
+
+  #check:checked~.l-menu {
+    display: flex;
+    left: 0;
+  }
+
+  .inicio {
+    padding: 2rem;
+  }
+
+  .inicio h3,
+  .inicio p,
+  .about .info-about p,
+  .about .info-about .about-content,
+  th,
+  td,
+  .about .info-about .about-content .text .requirement,
+  .arte .row-3 .box-container .box h3,
+  .arte .row-3 .box-container .box p,
+  .servicios .box-container .box h3,
+  .servicios .box-container .box span,
+  .portafolio .box-container .box h3,
+  .portafolio .box-container .box p,
+  .ima-galeria .parrafo,
+  .ima-galeria .descripcion,
+  .ima-galeria h2,
+  .contact .iconos-container .iconos h3,
+  .contact .iconos-container .iconos p,
+  footer {
+    font-size: 1.6vw;
+  }
+
+  .inicio h1,
+  .social a,
+  .n-seccion {
+    font-size: 2.3vw;
+  }
+
+  .foto img {
+    width: 13.5vw;
+  }
+
+  .boton {
+    font-size: 1.6vw;
+    padding: 0.5rem 1rem;
+  }
+
+  .linea-separador {
+    height: 0.5rem;
+  }
+
+  .separador {
+    height: 0.15rem;
+  }
+
+  .about .foto img {
+    width: 18vw;
+  }
+
+  .progress i,
+  .portafolio .box-container .box h4 {
+    font-size: 1.5vw;
+  }
+
+  .progress span {
+    font-size: 2vw;
+  }
+
+  .servicios .box-container .box i {
+    height: 7vw;
+    width: 7vw;
+    line-height: 7vw;
+    font-size: 3vw;
+  }
+
+  .portafolio .box-container {
+    display: grid;
+    justify-content: center;
+  }
+
+  .art .foto img,
+  .art video {
+    width: 34vw;
+  }
+
+  .contact .iconos-container .iconos i {
+    height: 4vw;
+    width: 4vw;
+    line-height: 4vw;
+    font-size: 2vw;
+  }
+
+}
+
+@media screen and (max-width: 755px) and (orientation: landscape) {
+  .nav-bar .l-menu li {
+    padding: 1rem 0 0 0;
+  }
+}
